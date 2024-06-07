@@ -4,9 +4,10 @@ class Childrensaccount(Account):
         self.interest_rate = 0.007
     
     def deposit(self, amount):
-        self._balance += amount
-        self._balance += amount * self.interest_rate
-        return self._balance
+        self.balance += amount
+        interest_earned = amount * self.interest_rate
+        self.balance += interest_earned
+        return self.balance
     
     def withdraw(self, amount):
         print("Withdrawals are not allowed from Children's account")
