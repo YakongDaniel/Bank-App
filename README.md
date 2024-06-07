@@ -1,1 +1,1 @@
-# Plinx.-Py
+Bingham bank app
