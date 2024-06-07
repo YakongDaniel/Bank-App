@@ -1,4 +1,4 @@
- #Savings that gains interest of 0.5% per deposit and a withdrawal limit of 700,000 
+ #Savings account that gains interest of 0.5% per deposit and a withdrawal limit of 700,000 
 
 class SavingsAccount(Account):
     def __init__(self, account_number, your_name, balance=0.0):
