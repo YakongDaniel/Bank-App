@@ -1,4 +1,4 @@
-class ChildrensAccount(Account):
+class Childrensaccount(Account):
     def __init__(self, account_number, your_name, balance=0.0):
         super().__init__(account_number, your_name, balance)
         self.interest_rate = 0.007
