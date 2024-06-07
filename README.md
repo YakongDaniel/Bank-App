@@ -1,4 +1,4 @@
-Bingham bank app
+BINGHAM BANK APP
 
  
  Example usage:
