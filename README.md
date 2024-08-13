@@ -23,3 +23,4 @@ student.deposit(60000)  # Should fail due to deposit limit
 student.withdraw(2500)  # Should fail due to withdrawal limit
 print(student.get_balance())
 
+helps to view your savings,current and child account
